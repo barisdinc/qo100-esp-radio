@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" width="640" height="520" role="img" aria-label="Vintage-style pocket shortwave radio tuned to QO-100 10489.777 MHz">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a3b22"/>
+      <stop offset="1" stop-color="#4a2112"/>
+    </linearGradient>
+    <pattern id="leather" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="none"/>
+      <circle cx="1.5" cy="1.5" r=".7" fill="#000" opacity=".18"/>
+      <circle cx="4.5" cy="4.5" r=".6" fill="#fff" opacity=".05"/>
+    </pattern>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f4f2"/>
+      <stop offset=".45" stop-color="#b9bcbf"/>
+      <stop offset=".55" stop-color="#8d9195"/>
+      <stop offset="1" stop-color="#e3e4e5"/>
+    </linearGradient>
+    <linearGradient id="dial" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff6d8"/>
+      <stop offset="1" stop-color="#f0d98e"/>
+    </linearGradient>
+    <radialGradient id="knob" cx=".35" cy=".35" r=".8">
+      <stop offset="0" stop-color="#5b5b5b"/>
+      <stop offset="1" stop-color="#151515"/>
+    </radialGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ff5a3c"/>
+      <stop offset="1" stop-color="#8a1405"/>
+    </radialGradient>
+    <pattern id="grille" width="14" height="14" patternUnits="userSpaceOnUse">
+      <rect width="14" height="14" fill="#d9d6cc"/>
+      <circle cx="7" cy="7" r="3.4" fill="#2a2420"/>
+    </pattern>
+  </defs>
+
+  <!-- antenna -->
+  <g stroke-linecap="round">
+    <line x1="470" y1="120" x2="600" y2="14" stroke="#9ea2a6" stroke-width="5"/>
+    <line x1="470" y1="120" x2="545" y2="59" stroke="#c9ccce" stroke-width="7"/>
+    <line x1="470" y1="120" x2="505" y2="92" stroke="#e1e3e4" stroke-width="9"/>
+    <circle cx="600" cy="14" r="6" fill="#c9ccce"/>
+  </g>
+  <rect x="452" y="112" width="40" height="18" rx="4" fill="url(#chrome)"/>
+
+  <!-- strap -->
+  <path d="M70 160 C 20 260, 20 380, 80 470" fill="none" stroke="#3a1a0d" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- body -->
+  <rect x="60" y="120" width="520" height="370" rx="36" fill="url(#body)"/>
+  <rect x="60" y="120" width="520" height="370" rx="36" fill="url(#leather)"/>
+  <rect x="72" y="132" width="496" height="346" rx="28" fill="none" stroke="#2c1309" stroke-width="2" stroke-dasharray="5 4" opacity=".7"/>
+
+  <!-- chrome front panel -->
+  <rect x="96" y="152" width="448" height="306" rx="18" fill="url(#chrome)" stroke="#6d7175" stroke-width="2"/>
+
+  <!-- speaker grille -->
+  <rect x="116" y="172" width="196" height="266" rx="12" fill="url(#grille)" stroke="#6d7175" stroke-width="2"/>
+  <rect x="160" y="398" width="108" height="30" rx="6" fill="url(#chrome)" stroke="#6d7175" stroke-width="1.5"/>
+  <text x="214" y="420" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="bold" font-size="20" fill="#7a3b22">QO-100</text>
+
+  <!-- brand plate -->
+  <rect x="332" y="172" width="192" height="34" rx="6" fill="#1f1f1f"/>
+  <text x="428" y="195" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" letter-spacing="3" fill="#e9c46a">WEB·SDR  RX</text>
+
+  <!-- dial window -->
+  <rect x="332" y="218" width="192" height="104" rx="8" fill="#2a2420"/>
+  <rect x="338" y="224" width="180" height="92" rx="5" fill="url(#dial)"/>
+  <g font-family="'Courier New', monospace" fill="#3b2a14">
+    <text x="346" y="240" font-size="9">SW  10489 MHz  ·  USB</text>
+    <g stroke="#3b2a14" stroke-width="1">
+      <line x1="346" y1="256" x2="510" y2="256"/>
+      <line x1="346" y1="250" x2="346" y2="262"/><line x1="366.5" y1="252" x2="366.5" y2="260"/>
+      <line x1="387" y1="250" x2="387" y2="262"/><line x1="407.5" y1="252" x2="407.5" y2="260"/>
+      <line x1="428" y1="250" x2="428" y2="262"/><line x1="448.5" y1="252" x2="448.5" y2="260"/>
+      <line x1="469" y1="250" x2="469" y2="262"/><line x1="489.5" y1="252" x2="489.5" y2="260"/>
+      <line x1="510" y1="250" x2="510" y2="262"/>
+    </g>
+    <text x="346" y="274" font-size="8" text-anchor="middle">.50</text>
+    <text x="387" y="274" font-size="8" text-anchor="middle">.60</text>
+    <text x="428" y="274" font-size="8" text-anchor="middle">.70</text>
+    <text x="469" y="274" font-size="8" text-anchor="middle">.80</text>
+    <text x="510" y="274" font-size="8" text-anchor="middle">.90</text>
+    <text x="428" y="302" font-size="17" font-weight="bold" text-anchor="middle">10489.777</text>
+  </g>
+  <!-- pointer at .777 -->
+  <line x1="459.5" y1="244" x2="459.5" y2="284" stroke="#c0281a" stroke-width="2.4"/>
+
+  <!-- tuning knob -->
+  <circle cx="380" cy="384" r="44" fill="url(#chrome)" stroke="#6d7175" stroke-width="2"/>
+  <circle cx="380" cy="384" r="34" fill="url(#knob)"/>
+  <g stroke="#3d3d3d" stroke-width="2">
+    <line x1="380" y1="352" x2="380" y2="358"/><line x1="412" y1="384" x2="406" y2="384"/>
+    <line x1="380" y1="416" x2="380" y2="410"/><line x1="348" y1="384" x2="354" y2="384"/>
+    <line x1="403" y1="361" x2="399" y2="365"/><line x1="403" y1="407" x2="399" y2="403"/>
+    <line x1="357" y1="407" x2="361" y2="403"/><line x1="357" y1="361" x2="361" y2="365"/>
+  </g>
+  <line x1="380" y1="384" x2="398" y2="366" stroke="#e9c46a" stroke-width="3" stroke-linecap="round"/>
+  <text x="380" y="444" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#2a2420" letter-spacing="2">TUNING</text>
+
+  <!-- volume knob -->
+  <circle cx="480" cy="372" r="26" fill="url(#chrome)" stroke="#6d7175" stroke-width="2"/>
+  <circle cx="480" cy="372" r="19" fill="url(#knob)"/>
+  <line x1="480" y1="372" x2="470" y2="358" stroke="#e9c46a" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="480" y="412" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#2a2420" letter-spacing="2">VOL</text>
+
+  <!-- signal lamp + wifi -->
+  <circle cx="510" cy="432" r="7" fill="url(#glow)"/>
+  <circle cx="510" cy="432" r="12" fill="#ff5a3c" opacity=".18"/>
+  <g fill="none" stroke="#2a2420" stroke-width="2" stroke-linecap="round">
+    <path d="M462 440 a12 12 0 0 1 16 0"/>
+    <path d="M457 435 a19 19 0 0 1 26 0"/>
+  </g>
+  <circle cx="470" cy="444" r="2.4" fill="#2a2420"/>
+
+  <!-- feet -->
+  <rect x="110" y="486" width="60" height="10" rx="5" fill="#2c1309"/>
+  <rect x="470" y="486" width="60" height="10" rx="5" fill="#2c1309"/>
+</svg>
